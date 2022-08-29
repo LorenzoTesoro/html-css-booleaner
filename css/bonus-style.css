@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    background-image: url('../img/pattern.png');
+    background-color: rgb(22, 169, 218);
+    height:150px;
+    position: relative;
+}
+
+#logo{
+    height:50px;
+    position:absolute;
+    bottom:10px;
+    left:5px;
+}
+
+/* main */
+main{
+    width: 1200px;
+    margin: auto;
+}
+
+/* title */
+.title{
+    margin: 15px 0 15px 0;
+}
+h1{
+    font-size:3rem;
+    margin: 10px 0 3px 0;
+}
+.author{
+    color:grey;
+    margin: 5px 0 10px 0;
+}
+.author-name{
+    color: rgb(22, 190, 218);
+}
+.caption, .date{
+    font-size: 0.8em;
+}
+
+/* content */
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+table{
+    width:100%;
+}
+th{
+    background-color:rgb(22, 169, 218);
+    color:white;
+    text-align: left;
+}
+.first-row, .third-row{
+    background-color: rgb(165, 195, 241);
+}
+.hightlighted{
+    background-color: yellow;
+}
+
+/* footer */
+footer{
+    width:1200px;
+    margin: auto;
+    text-align: center;
+}
+
+h4{
+    color: #707470;
+}
+
+footer > div{
+    height:250px;
+    width: 300px;
+    color: white;
+    margin-bottom: 10px;
+    margin:auto;
+}
+
+.monitor{
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.graph{
+    background-image: url('../img/graph.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    padding: 10px 0 0 10px;
+    font-size: 1.5rem;
+}
