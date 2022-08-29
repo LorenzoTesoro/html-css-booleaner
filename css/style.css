@@ -17,3 +17,24 @@ header{
     bottom:10px;
     left:5px;
 }
+
+main{
+    padding-left: 10px;
+}
+
+.title{
+    margin: 15px 0 15px 0;
+}
+h1{
+    font-size:3rem;
+}
+.author{
+    color:grey;
+    margin: 10px 0 10px 0;
+}
+.author-name{
+    color: rgb(22, 190, 218);
+}
+.caption, .date{
+    font-size: 0.8em;
+}
